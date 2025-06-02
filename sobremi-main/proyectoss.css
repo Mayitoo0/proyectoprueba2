@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fd428a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#botoness {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#quiensoyespacio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 20px 40px;
+}
+
+#imagenquiensoy {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#quiensoytexto {
+    max-width: 500px;
+}
+
+#leermas {
+    padding: 10px 20px;
+    background: #ff7aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#leermas:hover {
+    background: #ff7aad;
+}
+
+#circuloespacio {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ff7aad;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#proyectossespacio {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#columnas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.proyecto {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #ff7aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff7aad;
+}
+
+.derechos {
+    text-align: center;
+    padding: 20px;
+    background: #fd428a;
+    color: white;
+}
+@media (max-width: 500px) {
+    img {
+      width: 80%; /* O ajusta según necesidad */
+    }
+  }
+  #circulo {
+    max-width: 100%;
+    height: 20%;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+    
